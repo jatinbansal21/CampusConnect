@@ -19,14 +19,14 @@ app.use(cookieParser());
 const server = http.createServer(app);
 
 const io = new Server(server, {
-  cors: { origin: "https://kriti24-umiam.vercel.app" },
+  cors: { origin: "https://umiam-kriti24.netlify.app" },
 });
 
 dotenv.config();
 
 app.use(
   cors({
-    origin: "https://kriti24-umiam.vercel.app",
+    origin: "https://umiam-kriti24.netlify.app",
     credentials: true,
   })
 );

@@ -1,7 +1,7 @@
 import axios from "axios";
 axios.defaults.withCredentials = true;
 
-const serverUrl = 'https://kriti24-umiam.vercel.app';
+const serverUrl = 'https://umiam-kriti24.onrender.com';
 
 export const allDoubts = async () => {
   const response = await axios.get(`${serverUrl}/api/doubts`);

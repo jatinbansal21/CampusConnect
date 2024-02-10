@@ -1,7 +1,7 @@
 import axios from "axios";
 import handleAxiosError from "../Error/Error";
 
-const serverUrl = 'https://kriti24-umiam.vercel.app';
+const serverUrl = 'https://umiam-kriti24.onrender.com';
 
 export const allCourses = async () => {
   try {
