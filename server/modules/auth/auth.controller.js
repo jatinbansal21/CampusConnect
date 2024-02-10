@@ -7,7 +7,7 @@ const msalConfig = {
     clientId: "3d6bc04c-160d-49a6-8ffd-d119b9f663d7",
     authority:
       "https://login.microsoftonline.com/850aa78d-94e1-4bc6-9cf3-8c11b530701c",
-    clientSecret: "hNa8Q~kc8efPvjDVOOKM-WUvUxIR-KSa.4Nf.c1S",
+    clientSecret: "2Oy8Q~zTb2Ca.zlnvK6zTOTKMciVj2cXAYB9mbwc",
   },
 };
 
