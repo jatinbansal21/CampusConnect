@@ -66,8 +66,9 @@ const Collaborate = () => {
           <p className="heading-hm">Project Showcase</p>
           <p className="text-hm">
             Students can post detailed information about their projects,
-            including descriptions, objectives, technologies used, and outcomes,
-            with multimedia support for images, videos, and documents.
+            including descriptions, sknknfklja objectives, technologies used,
+            and outcomes, with multimedia support for images, videos, and
+            documents.
           </p>
           <button className="page_btn-hm">Learn More</button>
         </div>
