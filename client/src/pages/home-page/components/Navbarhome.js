@@ -32,19 +32,23 @@ const Navbar = () => {
   };
   return (
     <nav className="navbar-home">
-      <img 
+      <img
         src={require("./images/Group21.png")}
-        alt='logo' 
-        className='logo-home'
+        alt="logo"
+        className="logo-home"
       ></img>
       <ul className="nav-links-home">
         <li onClick={handlehome}>Home</li>
         <li onClick={handleaboutus}>About</li>
         <li onClick={handlefeatures}>Features</li>
-        <li><button className="login-btn-home" onClick={handlelogin}>Login</button></li>
+        <li>
+          <button className="login-btn-home" onClick={handlelogin}>
+            Login
+          </button>
+        </li>
       </ul>
     </nav>
   );
-}
+};
 
 export default Navbar;
