@@ -4,10 +4,10 @@ import User from "../../Models/User.js";
 
 const msalConfig = {
   auth: {
-    clientId: "b9bb88de-2a97-4488-848b-b33d23d1c014",
+    clientId: "3d6bc04c-160d-49a6-8ffd-d119b9f663d7",
     authority:
       "https://login.microsoftonline.com/850aa78d-94e1-4bc6-9cf3-8c11b530701c",
-    clientSecret: "YYC8Q~VRg-8WiYViZ.sVT3-tUILf5GxTlyqJKbhc",
+    clientSecret: "2Oy8Q~zTb2Ca.zlnvK6zTOTKMciVj2cXAYB9mbwc",
   },
 };
 
@@ -61,7 +61,7 @@ export const redirect = async (req, res) => {
       const newUser = new User(userData);
       newUser.save();
       console.log('Server is creating user in database');
-      res.redirect('http://umiam-kriti24.netlify.app/user-form');
+      res.redirect('https://umiam-kriti24.netlify.app/user-form/');
     }
     //console.log(userData);
 
@@ -78,7 +78,7 @@ export const redirect = async (req, res) => {
       expires: new Date(Date.now() + 3073600),
       httpOnly: false,
     });
-     res.redirect("http://umiam-kriti24.netlify.app/feed");
+     res.redirect("https://umiam-kriti24.netlify.app/feed/");
     // res.send('Login Successful!');
   } catch (error) {
     console.error("Error during redirect:", error);

@@ -1,7 +1,7 @@
 import axios from "axios";
 import { Navigate } from "react-router-dom";
 
-const serverUrl = 'http://umiam-kriti24.netlify.app';
+const serverUrl = 'https://umiam-kriti24.onrender.com';
 
 axios.defaults.withCredentials = true;
 

@@ -1,7 +1,7 @@
 import axios from "axios";
 import handleAxiosError from "../Error/Error";
 
-const serverUrl = 'http://umiam-kriti24.netlify.app';
+const serverUrl = 'https://umiam-kriti24.onrender.com';
 
 export const allCourses = async () => {
   try {
