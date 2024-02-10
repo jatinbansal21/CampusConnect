@@ -1,7 +1,7 @@
 import axios from "axios";
 axios.defaults.withCredentials = true;
 
-const serverUrl = 'http://umiam-kriti24.netlify.app';
+const serverUrl = 'https://kriti24-umiam.vercel.app';
 
 export const getUser = async (storedToken) => {
   try {

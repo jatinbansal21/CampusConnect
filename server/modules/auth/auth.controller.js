@@ -61,7 +61,7 @@ export const redirect = async (req, res) => {
       const newUser = new User(userData);
       newUser.save();
       console.log('Server is creating user in database');
-      res.redirect('http://umiam-kriti24.netlify.app/user-form/');
+      res.redirect('https://kriti24-umiam.vercel.app/user-form/');
     }
     //console.log(userData);
 
@@ -78,7 +78,7 @@ export const redirect = async (req, res) => {
       expires: new Date(Date.now() + 3073600),
       httpOnly: false,
     });
-     res.redirect("http://umiam-kriti24.netlify.app/feed/");
+     res.redirect("https://kriti24-umiam.vercel.app/feed/");
     // res.send('Login Successful!');
   } catch (error) {
     console.error("Error during redirect:", error);
