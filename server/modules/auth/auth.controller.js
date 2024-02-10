@@ -4,10 +4,10 @@ import User from "../../Models/User.js";
 
 const msalConfig = {
   auth: {
-    clientId: "b9bb88de-2a97-4488-848b-b33d23d1c014",
+    clientId: "3d6bc04c-160d-49a6-8ffd-d119b9f663d7",
     authority:
       "https://login.microsoftonline.com/850aa78d-94e1-4bc6-9cf3-8c11b530701c",
-    clientSecret: "YYC8Q~VRg-8WiYViZ.sVT3-tUILf5GxTlyqJKbhc",
+    clientSecret: "hNa8Q~kc8efPvjDVOOKM-WUvUxIR-KSa.4Nf.c1S",
   },
 };
 
