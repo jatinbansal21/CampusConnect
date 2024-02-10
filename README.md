@@ -14,8 +14,8 @@ To install AlphaProject, follow these steps:
 
 1. Clone the repository: git clone https://github.com/chhandam-pal/Kriti24_Umiam.git
 2. Navigate to the project directory: cd Kriti24_Umiam
-3.Navigate to client and server 
-3. Install dependencies: npm install
+3. Navigate to client and server 
+4. Install dependencies: npm install
 
 ## Usage
 
